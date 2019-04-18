@@ -7,7 +7,6 @@ class Point:
     def __str__(self):
         return self._x.__str__() +' '+self._y.__str__() + ' "' + self._name + '"'
 
-
     def show(self):
         print(self.get_x(), self.get_y(),self.get_name())
 
@@ -28,5 +27,3 @@ class Point:
 
     def get_name(self):
         return self._name
-
-p = Point(1, 2)
