@@ -5,10 +5,10 @@ class Point:
         self._name = name
 
     def __str__(self):
-        return self._x.__str__() +' '+self._y.__str__() + ' "' + self._name + '"'
+        return '(' + self._x.__str__() + ',' + self._y.__str__() + ')' + ' "' + self._name + '"'
 
     def show(self):
-        print(self.get_x(), self.get_y(),self.get_name())
+        print(self.get_x(), self.get_y(), self.get_name())
 
     def set_x(self, x):
         self._x = x
@@ -16,7 +16,7 @@ class Point:
     def set_y(self, y):
         self._y = y
 
-    def set_name(self,name):
+    def set_name(self, name):
         self._name = name
 
     def get_x(self):

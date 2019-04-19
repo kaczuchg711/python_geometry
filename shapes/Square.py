@@ -9,6 +9,5 @@ class Square(Figure.Figure):
     def get_area(self):
         return self._a**2
 
-s = Square(Point.Point(1,1),3)
-
-print(s.get_area())
+    def get_circut(self):
+        return a*4
